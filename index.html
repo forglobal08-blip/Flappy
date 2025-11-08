@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird - Classic Arcade Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flappy Bird</h1>
+        <div id="score">Score: 0</div>
+    </header>
+    <main>
+        <canvas id="gameCanvas" width="1000" height="600"></canvas>
+    </main>
+    <div id="gameOver" class="overlay">
+        <div class="game-over-content">
+            <h2>Game Over</h2>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button id="restartBtn">Play Again</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
