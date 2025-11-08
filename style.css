@@ -43,8 +43,8 @@ main {
 }
 
 canvas {
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 90vh;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -103,3 +103,4 @@ canvas {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
 }
+
